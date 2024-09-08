@@ -1,0 +1,141 @@
+Yo Prentice Webpage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yo Prentice - Music Artist. Explore my tracks, connect, and join the journey.">
+    <title>Yo Prentice | Music Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ff8800;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #ff8800;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            color: #ff8800;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .music-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .music-item {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .music-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .music-item h3 {
+            margin-top: 10px;
+            color: #ff8800;
+        }
+        footer {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Yo Prentice</h1>
+        <p>Welcome to my world of music. Discover my latest tracks and join the journey.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#music">Music</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Music Section -->
+    <section class="section" id="music">
+        <h2>My Music</h2>
+        <div class="music-grid">
+            <div class="music-item">
+                <img src="album1.jpg" alt="Album 1 Cover">
+                <h3>Track 1</h3>
+                <audio controls>
+                    <source src="track1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="music-item">
+                <img src="album2.jpg" alt="Album 2 Cover">
+                <h3>Track 2</h3>
+                <audio controls>
+                    <source src="track2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <!-- Add more tracks as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>Yo Prentice is a passionate music artist, creating beats and rhythms that move the soul. Explore my music, and let the vibes take you on a journey.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Follow me on social media or send me a message to connect!</p>
+        <p>Email: <a href="mailto:contact@yoprentice.com" style="color: #ff8800;">contact@yoprentice.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/yoprentice" target="_blank" style="color: #ff8800;">@yoprentice</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Yo Prentice. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
